@@ -32,13 +32,11 @@ root@debian:/home/yoyo#
 
 After copying `level02.pcap` from `level02` to another machine, I opened the file in Wireshark. Upon analyzing the network traffic, I found a packet containing the word '`Password`', as shown in the following image:
 
-![Screen Shot 2024-09-17 at 6.09.58 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/6f2fde31-9543-4e4c-9330-82632d6d36e1/bfa311a2-c07e-4588-9a87-d7d0db9d34dc/Screen_Shot_2024-09-17_at_6.09.58_PM.png)
+<img width="535" alt="Screen Shot 2024-09-17 at 6 09 58 PM" src="https://github.com/user-attachments/assets/2ddda762-173e-4585-9531-0170ee9e2948">
+<img width="647" alt="Screen Shot 2024-09-17 at 6 12 30 PM" src="https://github.com/user-attachments/assets/de98b585-9ead-4c3f-880f-f3c51611b82c">
 
-![Screen Shot 2024-09-17 at 6.12.30 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/6f2fde31-9543-4e4c-9330-82632d6d36e1/e3b54c20-2f0c-45dd-9ad7-dddfda91c5bb/Screen_Shot_2024-09-17_at_6.12.30_PM.png)
-
-![Screen Shot 2024-09-17 at 6.12.59 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/6f2fde31-9543-4e4c-9330-82632d6d36e1/f051f5d5-63b1-4029-82f7-120b2e9ae7fc/Screen_Shot_2024-09-17_at_6.12.59_PM.png)
-
-![Screen Shot 2024-09-17 at 6.14.21 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/6f2fde31-9543-4e4c-9330-82632d6d36e1/3b306e05-6b55-4002-a102-5398e3fc7341/Screen_Shot_2024-09-17_at_6.14.21_PM.png)
+<img width="778" alt="Screen Shot 2024-09-17 at 6 12 59 PM" src="https://github.com/user-attachments/assets/3218f6f6-eee2-4677-b19f-13fbbd9a9531">
+<img width="662" alt="Screen Shot 2024-09-17 at 6 14 21 PM" src="https://github.com/user-attachments/assets/38e8b2f1-c4c2-4963-a860-2c20e9f869ea">
 
 The password is `ft_wandr...NDRel.L0L`. Now, I need to remove the dots (`.`) from the password because they represent non-printable data.
 
