@@ -78,3 +78,9 @@ Check flag. Here is your token: qi0maab88jeaj46qoumi7maus
 ```
 
 This is the password for the next level, **level04**:
+
+```bash
+level03@SnowCrash:~$ /bin/su level04
+Password: qi0maab88jeaj46qoumi7maus
+level04@SnowCrash:~$
+```
