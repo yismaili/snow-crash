@@ -77,5 +77,3 @@ Once we are in flag00 account, then get the next level password using the follow
 flag00@SnowCrash:~$ getflag
 Check flag.Here is your token : x24ti5gi3x0ol2eh4esiuxias
 ```
-
-the password of **level01** is : x24ti5gi3x0ol2eh4esiuxias
