@@ -56,3 +56,10 @@ flag01@SnowCrash:~$ su level02
 Password: f2av5il02puano7naaf6adaaf
 level02@SnowCrash:~$
 ```
+
+using **John the Ripper Docker image**
+
+```
+docker pull adamoss/john-the-ripper
+docker run -it -v `pwd`/level01/flag:/crackme.txt adamoss/john-the-ripper /crackme.txt
+```
