@@ -34,23 +34,17 @@ I can implement this in C by adjusting the ASCII values as I iterate through the
 
 ```c
 #include <stdio.h>
-
 int main(int ac, char **av)
 {
-    const char *encoded;
     int i = 0;
-
     if (ac != 2)
     {
         printf("You need to provied only one arg.\n");
         return 1;
     }
-
-    encoded = av[1];
-
-    while (encoded[i])
+    while (av[1][i])
     {
-        printf("%c", encoded[i] - i);
+        printf("%c", av[1][i] - i);
         i++;
     }
     printf("\n");
